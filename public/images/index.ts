@@ -4,7 +4,9 @@ import bgSectionBottomDesktop2 from './bg-section-bottom-desktop-2.png'
 import bgSectionTopDesktop1 from './bg-section-top-desktop-1.png'
 import bgSectionTopDesktop2 from './bg-section-top-desktop-2.png'
 import iconCommunities from './icon-communities.png'
+import iconEmail from './icon-email.png'
 import screenMessages from './icon-messages.png'
+import iconPhone from './icon-phone.png'
 import illustrationFlowingConversation from './illustration-flowing-conversation.png'
 import illustrationGrowTogether from './illustration-grow-together.png'
 import illustrationYourUsers from './illustration-your-users.png'
@@ -24,4 +26,6 @@ export {
     illustrationYourUsers,
     illustrationFlowingConversation,
     bgFooterTopDesktop,
+    iconEmail,
+    iconPhone,
 }

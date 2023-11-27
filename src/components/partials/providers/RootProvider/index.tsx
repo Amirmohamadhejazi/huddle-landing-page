@@ -27,7 +27,7 @@ const RootProvider = ({ children }: TWrapperWithChildrenType) => {
                     <MantineProvider>
                         <ParallaxProvider>{children}</ParallaxProvider>
                     </MantineProvider>
-                    <ColorSchemeScript defaultColorScheme='dark' />
+                    <ColorSchemeScript defaultColorScheme='light' />
                 </DirectionProvider>
             </QueryParamProvider>
             {/* <ReactQueryDevtools initialIsOpen={false} buttonPosition='bottom-left' /> */}
