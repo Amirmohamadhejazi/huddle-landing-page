@@ -190,7 +190,7 @@ const LandingTemplate = () => {
                                                     <div className='p-1 rounded-full bg-cyan-600' />
                                                 </Parallax>
                                             </div>
-                                            <img src={itemsBox.img.src} className=' sm:max-w-lg' alt='' />
+                                            <img src={itemsBox.img.src} className=' sm:max-w-lg md:max-w-sm lg:max-w-md'  alt='' />
                                         </div>
                                     </div>
                                 </div>
