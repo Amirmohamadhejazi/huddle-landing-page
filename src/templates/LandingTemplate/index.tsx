@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 'use client'
 import { Parallax } from 'react-scroll-parallax'
 
@@ -17,12 +18,8 @@ import {
     screenMessages,
     screenMockups,
 } from '@public/images'
-
-console.log(logo)
-
 // import { Parallax } from 'react-scroll-parallax'
 const LandingTemplate = () => {
-    // return <div className='h-screen grid place-items-center'>
     return (
         <div className=' flex flex-col gap-5'>
             {/* header */}
@@ -166,9 +163,7 @@ const LandingTemplate = () => {
                 {/* footer */}
                 <div className='flex flex-col '>
                     <img src={bgFooterTopDesktop.src} alt='' />
-                    <div className='p-20 text-center text-white text-2xl bg-[#00252e]'>
-                        Foot ter
-                    </div>
+                    <div className='p-20 text-center text-white text-2xl bg-[#00252e]'></div>
                 </div>
             </div>
         </div>

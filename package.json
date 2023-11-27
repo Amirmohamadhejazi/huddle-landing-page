@@ -16,9 +16,11 @@
         "prepare": "husky install"
     },
     "dependencies": {
+        "@hookform/error-message": "^2.0.1",
         "@mantine/core": "^7.2.2",
         "@mantine/hooks": "^7.2.2",
         "@material-ui/core": "^4.12.4",
+        "@tabler/icons-react": "^2.42.0",
         "@tanstack/react-query": "^5.8.7",
         "@tanstack/react-query-devtools": "^5.8.7",
         "next": "^14.0.3",
@@ -27,6 +29,7 @@
         "react-dom": "^18.2.0",
         "react-hook-form": "^7.48.2",
         "react-scroll-parallax": "^3.4.5",
+        "use-debounce": "^10.0.0",
         "use-query-params": "^2.2.1",
         "yarn": "^1.22.19"
     },
